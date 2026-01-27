@@ -78,7 +78,7 @@ export default function LandingHero() {
           <div className="hidden lg:block lg:col-span-1" />
 
           {/* Right – Smaller Card */}
-          <div className="lg:col-span-5 flex items-center sm:hidden ">
+          <div className="lg:col-span-5 flex items-center sm:justify-center">
             <div className="w-full max-w-sm rounded-3xl bg-white/80 p-4 lg:p-5 shadow-lg ring-1 ring-black/5 backdrop-blur">
               {/* Image */}
               <div className="flex justify-center">
