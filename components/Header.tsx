@@ -18,7 +18,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* LOGO SECTION */}
           <Link
-            href="/EDP-logo-blue.png"
+            href="/"
             className="flex items-center shrink-0"
           >
             <Image
@@ -33,26 +33,18 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex gap-6 text-sm text-black">
-            {/* <Link href="#">Hire Talent</Link> */}
             <Link href="#">Consulting & Services</Link>
-            {/* <Link href="#">Clients</Link> */}
             <Link href="#">Blog</Link>
             <Link href="#">About Us</Link>
           </nav>
 
          {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4 text-sm text-black">
-<<<<<<< HEAD
-            {/* UPDATE THIS LINE BELOW */}
             <Link href="/apply" className="hover:text-emerald-600 transition">
               Apply as Talent
             </Link>
-            
-=======
-            {/* <Link href="#">Apply as Talent</Link> */}
->>>>>>> 4876bbd42a1296ac0fd8afac802b83b1ca762ae2
             <button className="bg-emerald-500 text-black px-4 py-2 rounded-md font-medium hover:bg-emerald-600 transition">
-              Apply as Talent
+              Hire Talent
             </button>
             <Link href="#">Log In</Link>
           </div>
@@ -60,7 +52,7 @@ export default function Header() {
           {/* Hamburger & Mobile Button */}
           <div className="flex items-center">
             <button className="lg:hidden bg-emerald-500 text-black py-2 px-4 mr-4 rounded-md font-medium hover:bg-emerald-600 transition cursor-pointer text-sm">
-              Apply as Talent
+              Apply
             </button>
             <button
               className="lg:hidden text-2xl text-black p-2"
@@ -79,7 +71,7 @@ export default function Header() {
           {/* Top Bar in Mobile Menu */}
           <div className="flex items-center justify-between px-6 h-16 border-b shrink-0">
             <Image
-              src="/logo.png"
+              src="/images/EDP-logo-blue.png"
               alt="EDP Logo"
               width={100}
               height={32}
@@ -139,25 +131,23 @@ export default function Header() {
           </nav>
 
           {/* Mobile Buttons */}
-        <div className="flex flex-col p-6 gap-3 mt-auto border-t bg-slate-50">
-          <button className="w-full bg-emerald-500 text-black py-3 rounded-md font-semibold hover:bg-emerald-600 transition">
-            Hire Top Talent
-          </button>
-          <div className="flex gap-3">
-            {/* Change this button to a Link */}
-            <Link 
-              href="/apply" 
-              onClick={() => setOpen(false)} // Closes the mobile menu when clicked
-              className="flex-1 border border-slate-300 py-3 rounded-md font-medium text-black hover:bg-white transition text-center"
-            >
-              Apply as Talent
-            </Link>
-            
-            <button className="flex-1 border border-slate-300 py-3 rounded-md font-medium text-black hover:bg-white transition">
-              Log In
+          <div className="flex flex-col p-6 gap-3 mt-auto border-t bg-slate-50">
+            <button className="w-full bg-emerald-500 text-black py-3 rounded-md font-semibold hover:bg-emerald-600 transition">
+              Hire Top Talent
             </button>
+            <div className="flex gap-3">
+              <Link 
+                href="/apply" 
+                onClick={() => setOpen(false)}
+                className="flex-1 border border-slate-300 py-3 rounded-md font-medium text-black hover:bg-white transition text-center"
+              >
+                Apply as Talent
+              </Link>
+              <button className="flex-1 border border-slate-300 py-3 rounded-md font-medium text-black hover:bg-white transition">
+                Log In
+              </button>
+            </div>
           </div>
-        </div>
         </div>
       )}
     </>
