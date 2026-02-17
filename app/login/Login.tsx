@@ -27,7 +27,7 @@ const SignIn: React.FC = () => {
         <form onSubmit={handleSubmit} className="mt-8 space-y-4">
           
           {/* Email Input with Gradient Border Overlay */}
-          <div className="relative rounded-lg p-[1.5px] bg-gradient-to-r from-[#00f28f] via-[#00d4ff] to-[#0081ff]">
+          <div className="relative rounded-lg p-[1.5px] bg-linear-to-r from-[#00f28f] via-[#00d4ff] to-[#0081ff]">
             <div className="bg-[#0f1117] rounded-lg px-4 py-3">
               <label className="absolute -top-2.5 left-4 bg-[#0f1117] px-1 text-xs font-medium text-[#00f28f]">
                 Email
@@ -69,7 +69,7 @@ const SignIn: React.FC = () => {
           {/* Main Sign In Button */}
           <button 
             type="submit"
-            className="w-full rounded-lg bg-gradient-to-r from-[#00f28f] to-[#00d4ff] py-4 font-bold text-black transition-transform active:scale-[0.98] hover:opacity-90"
+            className="w-full rounded-lg bg-linear-to-r from-[#00f28f] to-[#00d4ff] py-4 font-bold text-black transition-transform active:scale-[0.98] hover:opacity-90"
           >
             SIGN IN
           </button>
