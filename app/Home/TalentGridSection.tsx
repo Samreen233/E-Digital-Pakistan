@@ -78,9 +78,10 @@ export default function TalentGridSection() {
         <div className="mx-auto max-w-6xl px-4 py-16">
           {/* Heading */}
           <div className="text-center">
-            <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              Leverage World-class Talent
-            </h2>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-black leading-[1.1] mb-6 tracking-tighter">
+              Leverage World Class
+              <span className="text-emerald-500 italic">Talent</span>
+            </h1>
             <p className="mx-auto mt-3 max-w-2xl text-slate-600 sm:text-lg">
               We are the largest, globally distributed network of top business,
               design, and technology talent.
@@ -103,7 +104,7 @@ export default function TalentGridSection() {
                 >
                   <div className="flex items-start gap-4">
                     {/* Icon */}
-                    <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-600 ring-1 ring-blue-100">
+                    <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-emerald-500 ring-1 ring-blue-100">
                       <Icon size={20} />
                     </div>
 
