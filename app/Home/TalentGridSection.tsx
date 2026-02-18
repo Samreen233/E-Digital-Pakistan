@@ -71,7 +71,6 @@ export default function TalentGridSection() {
 
   return (
     <>
-<<<<<<< HEAD
       {/* SECTION */}
       <section className="bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16">
@@ -84,18 +83,6 @@ export default function TalentGridSection() {
             <p className="mx-auto mt-3 max-w-2xl text-slate-600 sm:text-lg">
               We are the largest, globally distributed network of top business,
               design, and technology talent.
-=======
-      <section className="bg-white py-20 px-4 md:py-28">
-        <div className="mx-auto max-w-6xl">
-          {/* Header */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-light tracking-tight text-slate-900 sm:text-5xl">
-              Leverage <span className="font-semibold italic">World-class</span> Talent
-            </h2>
-            <div className="mt-6 h-1 w-20 bg-slate-900" />
-            <p className="mt-8 max-w-2xl text-slate-500 text-lg leading-relaxed">
-              We provide access to a globally distributed network of elite business, design, and technology professionals.
->>>>>>> 19cc0d3670adb039c6c318f0bf5938e48aee429c
             </p>
           </div>
 
@@ -112,7 +99,6 @@ export default function TalentGridSection() {
                     item.wide ? "lg:col-span-2" : ""
                   }`}
                 >
-<<<<<<< HEAD
                   <div className="flex items-start gap-4">
                     {/* Icon */}
                     <div className="mt-1 flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-emerald-500 ring-1 ring-blue-100">
@@ -120,9 +106,6 @@ export default function TalentGridSection() {
                     </div>
 
                     {/* Content */}
-=======
-                  <div className="flex flex-col h-full justify-between">
->>>>>>> 19cc0d3670adb039c6c318f0bf5938e48aee429c
                     <div>
                       {/* Professional Icon Style: Thin, Slate-colored, No heavy background */}
                       <div className="mb-8 text-slate-400 group-hover:text-slate-900 transition-colors duration-500">

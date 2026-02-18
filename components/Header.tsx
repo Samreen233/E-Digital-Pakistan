@@ -42,12 +42,6 @@ export default function Header() {
             <Link className="hover:text-emerald-500 hover:font-bold" href="#">
               About Us
             </Link>
-            <Link
-              className="hover:text-emerald-500 hover:font-bold"
-              href="/Solutions"
-            >
-              Digital Solutions
-            </Link>
           </nav>
 
           {/* Desktop Actions */}
@@ -175,7 +169,9 @@ export default function Header() {
                 Apply as Talent
               </Link>
               <Link
-              href="/login" className="flex-1 border border-slate-300 py-3 rounded-md font-medium text-black hover:bg-white transition">
+                href="/login"
+                className="flex-1 border border-slate-300 py-3 rounded-md font-medium text-black hover:bg-white transition"
+              >
                 Log In
               </Link>
             </div>
